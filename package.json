@@ -9,10 +9,10 @@
   "scripts": {
     "build": "remix vite:build",
     "check:biome": "biome check .",
+    "check:types": "tsc",
     "dev": "remix vite:dev",
     "fix:biome": "biome check --apply .",
-    "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "start": "remix-serve ./build/server/index.js"
   },
   "dependencies": {
     "@remix-run/node": "^2.8.1",
