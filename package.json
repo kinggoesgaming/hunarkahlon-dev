@@ -1,5 +1,8 @@
 {
   "name": "hunarkahlon-dev",
+  "imports": {
+    "#*": "./*"
+  },
   "private": true,
   "sideEffects": false,
   "type": "module",
